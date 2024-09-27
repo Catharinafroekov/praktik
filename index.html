@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/img/sberry.png">
-    <title>Praktik</title>
+    <title>Catharina FdM</title>
 </head>
 <body>
     <header>
@@ -29,7 +29,7 @@
                       <li><a href="#home" data-scroll>Om mig</a></li>
                       <li><a href="#about" data-scroll>Portfolio</a></li>
                       <li><a href="#skills" data-scroll>Skills</a></li>
-                      <li><a href="#contact" data-scroll>Kontakt</a></li>
+                      <!-- <li><a href="#contact" data-scroll>Kontakt</a></li> -->
                     </ul>
                   </nav>
                 </div>
@@ -41,47 +41,116 @@
         <section id="home" style="--bg: #D5E5F2">
             <div class="grid_1-1">
                 <div class="homeimg">
-                    <img src="/img/sberry.png" alt="cat">
+                    <img src="/img/mig.jpg" alt="cat">
                 </div>
-            <div>
-        <h1>Personlighed</h1>
-        <p>Tekst om mig</p>
-        <p>Multimediedesigner</p>
+            <div class="flexspace"><div>
+        <h1>Om mig</h1>
+        <p>Jeg vil beskrive mig selv som kreativ, iderig, smilende, entusiastisk og struktureret</p>
+        <p>I min fritid kan jeg godt lide at dyrke krav maga(selvforsvar) eller spille en runde golf med venner og familie.</p>
+        </div><div>
+        <h3>Uddannelse:</h3>
+        <p>Baltorp Business gymnasium 2018/21</p>
+        <p>KEA - Multimediedesigner 2023/25</p>
+    </div><div>
+        <h4>Sprog:</h4>
+        <p>Dansk - Engelsk - Tysk - Kinesisk</p>
+    </div></div>
+    <div class="space">
         <p><img src="/img/bday.png" alt="bday"> 05-06-2002</p>
         <p><img src="/img/tlf.png" alt="telefon">+45 4241 6520</p>
     <p><img src="/img/mail.png" alt="mail"> catharina2002@gmail.com</p>
+
     <div class="footer">
     <a href="https://www.linkedin.com/in/catharina-fr%C3%B8kov-de-murashkin/"><img src="/img/linkedin.svg" alt="linkedin logo"></a>
     <a href="https://github.com/Catharinafroekov"><img src="/img/github.svg" alt="github logo"></a>
 </div>
-    </div>
-    </div>
-    </section>
-    <section id="about" style="--bg: #D5E5E2">
-        <div>
-        <h1>Portfolio</h1>
-        <button class="iridiscent">Build a bear knap</button>
-        <div class="grid_1-2">
-            <div>
-<img src="/img/sberry.png" alt="Projekt">
-</div><div>
-    <h2>Semester: 2</h2>
-    <h1>Anna Elisabeth Blomster</h1>
-    <div class="line"></div>
-    <div class="flex">
-        <p>Redesign af hjemmeside og udarbejdelse af SoMe content</p>
-        <ul>
-            <li>Double Diamond model</li>
-            <li>Dynamisk site</li>
-            <li>Digitalt indhold</li>
-        </ul>
-    </div>
 </div>
-        </div>
+    </div>
     </div>
     </section>
+        <section id="about" style="--bg: #D5E5E2">
+            <div>
+                <h1 class="font">Portfolio</h1>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <div class="grid_1-2">
+                                <div>
+                                    <img src="/img/ae.png" alt="Projekt">
+                                </div>
+                                <div>
+                                    <h2>Semester: 2</h2>
+                                    <h1>Anna Elisabeth Blomster</h1>
+                                    <div class="line"></div>
+                                    <div class="flex">
+                                        <div>
+                                            <p>Redesign af hjemmeside og udarbejdelse af SoMe content.</p>
+                                            <p>Link til løsning: <a href="https://ae-blomster.netlify.app/">https://ae-blomster.netlify.app/</a></p>
+                                        </div>
+                                        <ul>
+                                            <li>Double Diamond model</li>
+                                            <li>Dynamisk site</li>
+                                            <li>Digitalt indhold</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="grid_1-2">
+                                <div>
+                                    <img src="/img/askex.png" alt="Projekt">
+                                </div>
+                                <div>
+                                    <h2>Semester: 3</h2>
+                                    <h1>AskExperts</h1>
+                                    <div class="line"></div>
+                                    <div class="flex">
+                                        <div>
+                                            <p>Implementering af et webiste i tro kopi med en Figma prototype.</p>
+                                            <p>Link til løsning: <a href="https://temaopgave11-catharina.netlify.app/">https://temaopgave11-catharina.netlify.app/</a></p>
+                                        </div>
+                                        <ul>
+                                            <li>Responsivitet</li>
+                                            <li>Astro</li>
+                                            <li>Figma implementering</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="grid_1-2">
+                                <div>
+                                    <img src="/img/gt.png" alt="Projekt">
+                                </div>
+                                <div>
+                                    <h2>Semester: 2</h2>
+                                    <h1>GirlTalk</h1>
+                                    <div class="line"></div>
+                                    <div class="flex">
+                                        <div>
+                                            <p>Udvikling af responsiv Webfeature ved brug af Astro, samt skabe SoMe indhold i kundens visuelle stil.</p>
+                                            <p>Link til løsning: <a href="https://master--group6-gt.netlify.app/">https://master--group6-gt.netlify.app/</a></p>
+                                        </div>
+                                        <ul>
+                                            <li>InDesign</li>
+                                            <li>Webfeature</li>
+                                            <li>SPRINT-metode</li>
+                                            <li>Digitalt indhold</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="prev iridiscent" onclick="prevSlide()">&#10094;</button>
+        <button class="next iridiscent" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </section>
     <section id="skills" style="--bg: #D5E5D2">
-        <h1>Skills</h1>
+        <h1 class="font">Skills</h1>
         <ul class="skills_list">
             <div>
             <li>HTML</li>

@@ -52,3 +52,34 @@ home.addEventListener("mousemove", function(e) {
   }
 });
 
+let currentSlide = 0;
+
+function showSlide(index) {
+    const carousel = document.querySelector('.carousel');
+    const totalItems = document.querySelectorAll('.carousel-item').length;
+
+    // Loop around when reaching the ends
+    if (index >= totalItems) {
+        currentSlide = 0;
+    } else if (index < 0) {
+        currentSlide = totalItems - 1;
+    } else {
+        currentSlide = index;
+    }
+
+    const offset = -currentSlide * 100;  // Each slide is 100% wide
+    carousel.style.transform = `translateX(${offset}%)`;
+}
+
+function nextSlide() {
+    showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+    showSlide(currentSlide - 1);
+}
+
+// Initialize the first slide
+showSlide(currentSlide);
+
+
