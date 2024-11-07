@@ -29,7 +29,7 @@
                       <li><a href="#home" data-scroll>Om mig</a></li>
                       <li><a href="#about" data-scroll>Portfolio</a></li>
                       <li><a href="#skills" data-scroll>Skills</a></li>
-                      <!-- <li><a href="#contact" data-scroll>Kontakt</a></li> -->
+                      <li><a href="#contact" data-scroll>Kontakt</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -44,7 +44,7 @@
                     <img src="/img/mig.jpg" alt="cat">
                 </div>
             <div class="flexspace"><div>
-        <h1>Om mig</h1>
+        <h1 class="font1">Om mig</h1>
         <p>Jeg vil beskrive mig selv som kreativ, iderig, smilende, entusiastisk og struktureret</p>
         <p>I min fritid kan jeg godt lide at dyrke krav maga(selvforsvar) eller spille en runde golf med venner og familie.</p>
         </div><div>
@@ -228,9 +228,24 @@
     </section>
     </main>
     <footer>
-<!-- <section id="contact" style="--bg: #D5E5C2">
-</section> -->
+<section id="contact" style="--bg: #D5E5C2">
+        <div class="contact_container">
+
+            <div class="contact_form">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h1 class="font">Kontakt</h1>
+                    </div>
+                    <input type="hidden" name="access_key" value="2ec37523-3ebe-4ced-8a90-750a33a16f56">
+                    <input type="text" name="name" placeholder="Dit navn" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Din E-mail" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Din besked" class="contact-inputs" required></textarea>
+                    <button type="submit">Indsend</button>
+                </form>
+            </div>
+</section>
     </footer>
     <script src="generel.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>
